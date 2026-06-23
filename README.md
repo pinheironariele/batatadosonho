@@ -1,4 +1,4 @@
-# Sabor & Cia — Delivery de Comida
+# Batata do Sonho — Delivery 
 
 Um site completo de pedidos de comida online com cardápio interativo, carrinho de compras, calculadora de taxa de entrega e pagamento via Stripe.
 
@@ -8,6 +8,7 @@ Um site completo de pedidos de comida online com cardápio interativo, carrinho 
 - **Carrinho de compras** com controle de quantidades
 - **Calculadora de taxa de entrega** por bairro, com tempo estimado
 - **Pagamento seguro** via Stripe Checkout (cartão de crédito)
+- pix Qr code
 - Interface totalmente em **Português do Brasil**
 
 ## Tecnologias
@@ -45,4 +46,4 @@ Para ativar os pagamentos, adicione sua chave secreta do Stripe (`STRIPE_SECRET_
 
 - **Cardápio**: edite `src/data/menu.ts` para adicionar, remover ou modificar pratos
 - **Bairros de entrega**: ajuste o array `deliveryZones` em `src/data/menu.ts` com os bairros e taxas da sua cidade
-- **Nome do restaurante**: altere `Header.tsx` e `__root.tsx`
+- **Batata do Sonho**: altere `Header.tsx` e `__root.tsx`
