@@ -18,20 +18,20 @@ export interface DeliveryZone {
 
 export const categories: { id: Category | 'todos'; label: string; emoji: string }[] = [
   { id: 'todos', label: 'Todos', emoji: '🍽️' },
-  { id: 'entradas', label: 'Entradas', emoji: '🥗' },
-  { id: 'principais', label: 'Pratos Principais', emoji: '🍽️' },
+  {
+  { id: 'principais', label: 'Batata recheada', emoji: '🍽️' },
   { id: 'sobremesas', label: 'Sobremesas', emoji: '🍰' },
   { id: 'bebidas', label: 'Bebidas', emoji: '🥤' },
 ]
 
 export const deliveryZones: DeliveryZone[] = [
-  { bairro: 'Centro', fee: 500, time: '20-30 min' },
-  { bairro: 'Jardim América', fee: 700, time: '25-35 min' },
-  { bairro: 'Vila Nova', fee: 800, time: '30-40 min' },
-  { bairro: 'Bela Vista', fee: 600, time: '20-30 min' },
-  { bairro: 'Parque Industrial', fee: 1000, time: '35-45 min' },
-  { bairro: 'Cidade Alta', fee: 900, time: '30-40 min' },
-  { bairro: 'São Luís', fee: 1200, time: '40-50 min' },
+  { bairro: 'Morretes', fee: 500, time: '20-30 min' },
+  { bairro: 'Jardim praia mar', fee: 700, time: '25-35 min' },
+  { bairro: 'Alto São bento', fee: 800, time: '30-40 min' },
+  { bairro: 'Meia praia', fee: 600, time: '20-30 min' },
+  { bairro: 'canto da praia', fee: 1000, time: '35-45 min' },
+  { bairro: 'sertao trombudo', fee: 900, time: '30-40 min' },
+  { bairro: 'centro', fee: 1200, time: '40-50 min' },
   { bairro: 'Outro bairro', fee: 1500, time: '45-60 min' },
 ]
 
@@ -39,11 +39,11 @@ const menu: MenuItem[] = [
   // Entradas
   {
     id: 1,
-    name: 'Coxinha de Frango',
-    category: 'entradas',
-    description: 'Crocante por fora, recheada com frango desfiado temperado. Acompanha molho especial da casa.',
+    name: 'batata recheada bacon ',
+    category: 'principais',
+    description: 'manteiga, recheada com bacon queijo. molho a escolha .',
     price: 1290,
-    emoji: '🍗',
+    emoji: '🥔',
     tag: 'Popular',
   },
   {
